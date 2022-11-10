@@ -1169,10 +1169,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 9,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1668110017465, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1222,81 +1222,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1005,
+    "id": 1006,
     "robots": [
-      {"id": "kivipallur", "name": "Kivipallur Jürto"},
-      {"id": "gibibot", "name": "GibiBot"}
+      {"id": "OWO", "name": "OWO"},
+      {"id": "kivipallur", "name": "Kivipallur Jürto"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1668109481527, "isValid": true},
-            {"time": 1668109519903, "isValid": true},
-            {"time": 1668109562237, "isValid": true},
-            {"time": 1668109573865, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [
-          [{"time": 1668109582538}],
-          [{"time": 1668109491412}, {"time": 1668109531370}]
-        ],
+        "scores": [[], []],
+        "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 9,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1668109455064, "endTime": 1668109481793},
-          {"startTime": 1668109512818, "endTime": 1668109518511},
-          {"startTime": 1668109552912, "endTime": 1668109575412},
-          {"startTime": 1668109622619, "endTime": 1668109627792}
-        ]
-      },
-      {
-        "scores": [[{"time": 1668109729859, "isValid": true}], []],
-        "fouls": [
-          [{"time": 1668109739844}],
-          [{"time": 1668109789205}, {"time": 1668109834358}]
-        ],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60109,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1668109706554, "endTime": 1668109732706},
-          {"startTime": 1668109766958, "endTime": 1668109781370},
-          {"startTime": 1668109813838, "endTime": 1668109828064},
-          {"startTime": 1668109850636, "endTime": 1668109855955}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1668110017465, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "kivipallur", "name": "Kivipallur Jürto"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.37, 1.17],
-      [-1.37, -1.17],
-      [2.01, 0.53],
-      [-2.01, -0.53],
-      [-1.06, -0.13],
-      [1.06, 0.13],
-      [0.28, -0.63],
-      [-0.28, 0.63],
-      [-0.48, 1.09],
-      [0.48, -1.09]
+      [-1.73, -0.02],
+      [1.73, 0.02],
+      [-1.3, -0.2],
+      [1.3, 0.2],
+      [-0.4, 0.88],
+      [0.4, -0.88],
+      [0.91, -0.46],
+      [-0.91, 0.46],
+      [-1.1, -1.41],
+      [1.1, 1.41]
     ]
   }
 }
