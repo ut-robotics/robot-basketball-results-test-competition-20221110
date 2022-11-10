@@ -6,7 +6,8 @@
     {"id": "gibibot", "name": "GibiBot"},
     {"id": "valdis", "name": "Valdis"},
     {"id": "placeholder", "name": "%placeholder%"},
-    {"id": "kivipallur", "name": "Kivipallur Jürto"}
+    {"id": "kivipallur", "name": "Kivipallur Jürto"},
+    {"id": "robodendron", "name": "Robodendron"}
   ],
   "tournament": null
 }
