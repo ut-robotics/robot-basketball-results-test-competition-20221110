@@ -24,15 +24,15 @@
       {"id": "gibibot", "name": "GibiBot"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
     "byes": [],
     "robotStartingBaskets": {
-      "valdis": ["blue"],
-      "kivipallur": ["magenta"],
-      "robodendron": ["magenta"],
-      "placeholder": ["blue"],
-      "OWO": ["magenta"],
-      "gibibot": ["blue"]
+      "valdis": ["blue", "magenta"],
+      "kivipallur": ["magenta", "blue"],
+      "robodendron": ["magenta", "magenta"],
+      "placeholder": ["blue", "magenta"],
+      "OWO": ["magenta", "blue"],
+      "gibibot": ["blue", "blue"]
     },
     "hasEnded": false
   }
