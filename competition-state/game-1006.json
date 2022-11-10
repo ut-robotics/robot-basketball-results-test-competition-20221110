@@ -9,7 +9,16 @@
   "hasEnded": false,
   "rounds": [
     {
-      "scores": [[], []],
+      "scores": [
+        [
+          {"time": 1668110027559, "isValid": true},
+          {"time": 1668110031705, "isValid": true},
+          {"time": 1668110035898, "isValid": true},
+          {"time": 1668110037605, "isValid": true},
+          {"time": 1668110039183, "isValid": true}
+        ],
+        []
+      ],
       "fouls": [[], []],
       "baskets": ["blue", "magenta"],
       "hasEnded": false,
