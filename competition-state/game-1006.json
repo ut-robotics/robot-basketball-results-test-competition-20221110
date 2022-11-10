@@ -1,0 +1,34 @@
+{
+  "id": 1006,
+  "robots": [
+    {"id": "OWO", "name": "OWO"},
+    {"id": "kivipallur", "name": "Kivipallur Jürto"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.73, -0.02],
+    [1.73, 0.02],
+    [-1.3, -0.2],
+    [1.3, 0.2],
+    [-0.4, 0.88],
+    [0.4, -0.88],
+    [0.91, -0.46],
+    [-0.91, 0.46],
+    [-1.1, -1.41],
+    [1.1, 1.41]
+  ]
+}
