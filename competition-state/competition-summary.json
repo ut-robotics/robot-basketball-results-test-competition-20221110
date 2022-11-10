@@ -1091,10 +1091,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1668109455064, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1132,80 +1132,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1004,
+    "id": 1005,
     "robots": [
-      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "kivipallur", "name": "Kivipallur Jürto"},
       {"id": "gibibot", "name": "GibiBot"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[], [{"time": 1668108940629, "isValid": true}]],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60004,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1668108913944, "endTime": 1668108973948}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[{"time": 1668109086048}], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60009,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1668109053782, "endTime": 1668109078597},
-          {"startTime": 1668109124705, "endTime": 1668109159899}
-        ]
-      },
-      {
-        "scores": [
-          [{"time": 1668109255245, "isValid": true}],
-          [
-            {"time": 1668109265682, "isValid": true},
-            {"time": 1668109324823, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1668109284036}], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60047,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1668109240524, "endTime": 1668109274899},
-          {"startTime": 1668109310037, "endTime": 1668109335709}
-        ]
+        "runs": [{"startTime": 1668109455064, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "gibibot", "name": "GibiBot"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.53, -1.17],
-      [0.53, 1.17],
-      [-2.17, 0.96],
-      [2.17, -0.96],
-      [0.67, -0.31],
-      [-0.67, 0.31],
-      [1.3, -0.81],
-      [-1.3, 0.81],
-      [-1.28, -1],
-      [1.28, 1]
+      [1.37, 1.17],
+      [-1.37, -1.17],
+      [2.01, 0.53],
+      [-2.01, -0.53],
+      [-1.06, -0.13],
+      [1.06, 0.13],
+      [0.28, -0.63],
+      [-0.28, 0.63],
+      [-0.48, 1.09],
+      [0.48, -1.09]
     ]
   }
 }
