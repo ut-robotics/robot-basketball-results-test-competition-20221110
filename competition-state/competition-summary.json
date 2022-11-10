@@ -850,7 +850,7 @@
               [
                 {"time": 1668107695403, "isValid": true},
                 {"time": 1668107708657, "isValid": true},
-                {"time": 1668107708782, "isValid": true}
+                {"time": 1668107708782, "isValid": false}
               ],
               [
                 {"time": 1668107620740, "isValid": true},
@@ -913,7 +913,7 @@
           [
             {"time": 1668107695403, "isValid": true},
             {"time": 1668107708657, "isValid": true},
-            {"time": 1668107708782, "isValid": true}
+            {"time": 1668107708782, "isValid": false}
           ],
           [
             {"time": 1668107620740, "isValid": true},
