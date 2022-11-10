@@ -287,12 +287,12 @@
             ]
           },
           {
-            "scores": [[], []],
+            "scores": [[], [{"time": 1668103672252, "isValid": false}]],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 4,
+            "duration": 42506,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [{"startTime": 1668103630914, "endTime": null}]
@@ -460,12 +460,12 @@
         ]
       },
       {
-        "scores": [[], []],
+        "scores": [[], [{"time": 1668103672252, "isValid": false}]],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 5,
+        "duration": 42506,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [{"startTime": 1668103630914, "endTime": null}]
