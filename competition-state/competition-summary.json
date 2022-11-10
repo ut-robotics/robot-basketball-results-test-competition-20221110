@@ -427,7 +427,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -462,15 +462,21 @@
             ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 48539,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60053,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1668105190605, "endTime": null}]
+            "winnerIndex": 0,
+            "runs": [{"startTime": 1668105190605, "endTime": 1668105250658}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "OWO", "name": "OWO"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-1.11, 0.91],
@@ -483,6 +489,117 @@
           [1.13, -0.48],
           [-1.7, -0.23],
           [1.7, 0.23]
+        ]
+      },
+      {
+        "id": 7,
+        "robots": [
+          {"id": "valdis", "name": "Valdis"},
+          {"id": "robodendron", "name": "Robodendron"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.71, 0.66],
+          [-0.71, -0.66],
+          [1.39, -0.79],
+          [-1.39, 0.79],
+          [0.18, 0.46],
+          [-0.18, -0.46],
+          [-1.35, -0.46],
+          [1.35, 0.46],
+          [0.36, -1.21],
+          [-0.36, 1.21]
+        ]
+      },
+      {
+        "id": 8,
+        "robots": [
+          {"id": "gibibot", "name": "GibiBot"},
+          {"id": "placeholder", "name": "%placeholder%"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.02, -1.17],
+          [0.02, 1.17],
+          [1.58, -0.23],
+          [-1.58, 0.23],
+          [-0.44, 0.92],
+          [0.44, -0.92],
+          [-0.31, 0.33],
+          [0.31, -0.33],
+          [2.18, -0.43],
+          [-2.18, 0.43]
+        ]
+      },
+      {
+        "id": 9,
+        "robots": [
+          {"id": "kivipallur", "name": "Kivipallur Jürto"},
+          {"id": "OWO", "name": "OWO"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.93, 0.1],
+          [-0.93, -0.1],
+          [-0.88, -0.59],
+          [0.88, 0.59],
+          [-0.88, 0.77],
+          [0.88, -0.77],
+          [0.62, -0.16],
+          [-0.62, 0.16],
+          [-1.15, 1.14],
+          [1.15, -1.14]
         ]
       }
     ],
@@ -501,31 +618,31 @@
       {
         "robot": {"id": "gibibot", "name": "GibiBot"},
         "score": 0.8,
-        "tieBreakScore": 0.8
-      },
-      {
-        "robot": {"id": "OWO", "name": "OWO"},
-        "score": 0.8,
-        "tieBreakScore": 1.8
+        "tieBreakScore": 2.8
       },
       {
         "robot": {"id": "placeholder", "name": "%placeholder%"},
         "score": 1,
-        "tieBreakScore": 0.8
+        "tieBreakScore": 2.6
       },
       {
         "robot": {"id": "kivipallur", "name": "Kivipallur Jürto"},
         "score": 1.7000000000000002,
-        "tieBreakScore": 0
+        "tieBreakScore": 1.8
+      },
+      {
+        "robot": {"id": "OWO", "name": "OWO"},
+        "score": 1.8,
+        "tieBreakScore": 3.5
       }
     ],
     "robotStartingBaskets": {
-      "valdis": ["blue", "magenta"],
-      "kivipallur": ["magenta", "blue"],
-      "robodendron": ["magenta", "magenta"],
-      "placeholder": ["blue", "magenta"],
-      "OWO": ["magenta", "blue"],
-      "gibibot": ["blue", "blue"]
+      "valdis": ["blue", "magenta", "magenta"],
+      "kivipallur": ["magenta", "blue", "magenta"],
+      "robodendron": ["magenta", "magenta", "blue"],
+      "placeholder": ["blue", "magenta", "blue"],
+      "OWO": ["magenta", "blue", "blue"],
+      "gibibot": ["blue", "blue", "magenta"]
     },
     "hasEnded": false
   },
@@ -537,7 +654,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -572,15 +689,21 @@
         ],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 48539,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60053,
         "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1668105190605, "endTime": null}]
+        "winnerIndex": 0,
+        "runs": [{"startTime": 1668105190605, "endTime": 1668105250658}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "OWO", "name": "OWO"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [-1.11, 0.91],
