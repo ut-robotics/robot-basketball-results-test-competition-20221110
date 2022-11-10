@@ -12,7 +12,8 @@
       "scores": [
         [
           {"time": 1668109481527, "isValid": true},
-          {"time": 1668109519903, "isValid": true}
+          {"time": 1668109519903, "isValid": true},
+          {"time": 1668109562237, "isValid": true}
         ],
         []
       ],
@@ -23,7 +24,8 @@
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1668109455064, "endTime": 1668109481793},
-        {"startTime": 1668109512818, "endTime": 1668109518511}
+        {"startTime": 1668109512818, "endTime": 1668109518511},
+        {"startTime": 1668109552912, "endTime": null}
       ]
     }
   ],
