@@ -106,10 +106,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 3,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1668102286629, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -205,68 +205,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1,
+    "id": 2,
     "robots": [
-      {"id": "valdis", "name": "Valdis"},
-      {"id": "kivipallur", "name": "Kivipallur Jürto"}
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "placeholder", "name": "%placeholder%"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60014,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1668101405246, "endTime": 1668101465260}]
-      },
-      {
-        "scores": [[], [{"time": 1668101580005, "isValid": true}]],
-        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60084,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1668101557979, "endTime": 1668101618063}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60068,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 3,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1668101706540, "endTime": 1668101766608}]
+        "runs": [{"startTime": 1668102286629, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "kivipallur", "name": "Kivipallur Jürto"},
-      "roundWinCount": 1,
-      "roundLossCount": 0,
-      "roundTieCount": 2
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.84, 0.15],
-      [-0.84, -0.15],
-      [-0.84, -1.3],
-      [0.84, 1.3],
-      [-0.74, 1.05],
-      [0.74, -1.05],
-      [-0.09, 1.21],
-      [0.09, -1.21],
-      [-1.27, -1.37],
-      [1.27, 1.37]
+      [1.76, -0.45],
+      [-1.76, 0.45],
+      [-1.02, 0.52],
+      [1.02, -0.52],
+      [-1.81, 0.91],
+      [1.81, -0.91],
+      [-1.78, 0.01],
+      [1.78, -0.01],
+      [0.78, 0.47],
+      [-0.78, -0.47]
     ]
   }
 }
