@@ -52,11 +52,12 @@
       "1005": "oneLoss",
       "1006": "firstFinal"
     },
-    "noLossQueue": [],
+    "noLossQueue": [{"id": "OWO", "name": "OWO"}],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "placeholder", "name": "%placeholder%"},
-      {"id": "gibibot", "name": "GibiBot"}
+      {"id": "gibibot", "name": "GibiBot"},
+      {"id": "kivipallur", "name": "Kivipallur Jürto"}
     ],
     "robotStartingBaskets": {
       "placeholder": ["blue", "magenta", "blue", "magenta", "blue"],
@@ -72,6 +73,6 @@
         "magenta"
       ]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
