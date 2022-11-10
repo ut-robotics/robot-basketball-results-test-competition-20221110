@@ -3,7 +3,8 @@
   "name": "Test Competition 2022-11-10",
   "robots": [
     {"id": "OWO", "name": "OWO"},
-    {"id": "GibiBot", "name": "gibibot"}
+    {"id": "gibibot", "name": "GibiBot"},
+    {"id": "valdis", "name": "Valdis"}
   ],
   "tournament": null
 }
