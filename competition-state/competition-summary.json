@@ -567,7 +567,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -614,18 +614,19 @@
             "scores": [[{"time": 1668106429075, "isValid": true}], []],
             "fouls": [[{"time": 1668106449594}], [{"time": 1668106360932}]],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 57455,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60100,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1668106350643, "endTime": 1668106354569},
-              {"startTime": 1668106388107, "endTime": 1668106441636}
+              {"startTime": 1668106388107, "endTime": 1668106441636},
+              {"startTime": 1668106475827, "endTime": 1668106478472}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {"result": "tied"},
         "ballPlacement": [
           [0, 0],
           [-0.02, -1.17],
@@ -683,22 +684,22 @@
       {
         "robot": {"id": "robodendron", "name": "Robodendron"},
         "score": 0,
-        "tieBreakScore": 3.5
+        "tieBreakScore": 4
       },
       {
         "robot": {"id": "valdis", "name": "Valdis"},
         "score": 0.8,
-        "tieBreakScore": 2.5
+        "tieBreakScore": 3
       },
       {
         "robot": {"id": "gibibot", "name": "GibiBot"},
-        "score": 0.8,
-        "tieBreakScore": 3.6
+        "score": 1.3,
+        "tieBreakScore": 4.1
       },
       {
         "robot": {"id": "placeholder", "name": "%placeholder%"},
-        "score": 1,
-        "tieBreakScore": 2.6
+        "score": 1.5,
+        "tieBreakScore": 3.1
       },
       {
         "robot": {"id": "kivipallur", "name": "Kivipallur Jürto"},
@@ -708,7 +709,7 @@
       {
         "robot": {"id": "OWO", "name": "OWO"},
         "score": 1.8,
-        "tieBreakScore": 3.5
+        "tieBreakScore": 4.5
       }
     ],
     "robotStartingBaskets": {
@@ -729,7 +730,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -776,18 +777,19 @@
         "scores": [[{"time": 1668106429075, "isValid": true}], []],
         "fouls": [[{"time": 1668106449594}], [{"time": 1668106360932}]],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 57455,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60100,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1668106350643, "endTime": 1668106354569},
-          {"startTime": 1668106388107, "endTime": 1668106441636}
+          {"startTime": 1668106388107, "endTime": 1668106441636},
+          {"startTime": 1668106475827, "endTime": 1668106478472}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {"result": "tied"},
     "ballPlacement": [
       [0, 0],
       [-0.02, -1.17],
